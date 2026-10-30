@@ -9,6 +9,8 @@
 body{min-height:100vh;isolation:isolate}
 body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url("./background.png") center center / min(90vw,600px) auto no-repeat;opacity:0.5}
 section{background:rgba(255,255,255,0.78)}li{background:rgba(255,255,255,0.85)}
+#content{background:linear-gradient(135deg,#fff1f6 0%,#ffd7e7 50%,#f6b8d0 100%);border-color:#d989a9;color:#3f2230}
+#content:focus{outline:2px solid #bd4e7c;outline-offset:2px}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
